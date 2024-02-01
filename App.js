@@ -18,7 +18,9 @@ export default function App() {
           headerStyle: { backgroundColor: "#3c0a6b" },
           headerTintColor: "white",
           tabBarActiveTintColor: "#3c0a6b",
+          tabBarActiveBackgroundColor: "#d4cce6",
         }}
+        sceneContainerStyle={{ backgroundColor: "#e3dfed" }}
       >
         <BottmTab.Screen
           name="HomeScreen"
@@ -34,7 +36,7 @@ export default function App() {
           component={ProductsScreen}
           options={{
             tabBarIcon: ({ color, size }) => (
-              <Ionicons name="list" color={color} size={size} />
+              <Ionicons name="cube" color={color} size={size} />
             ),
           }}
         />
