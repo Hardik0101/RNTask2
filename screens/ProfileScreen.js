@@ -15,7 +15,7 @@ function ProfileScreen() {
         </View>
       </View>
       <View style={style.personData}>
-        <Text>Persnol Details</Text>
+        <Text style={style.data}>Persnol Details</Text>
         <View>
           <Text>Name:</Text>
           <Text>Address:</Text>
@@ -53,5 +53,8 @@ const style = StyleSheet.create({
   },
   personData: {
     marginHorizontal: 12,
+  },
+  data: {
+    fontSize: 20,
   },
 });
