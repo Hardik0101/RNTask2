@@ -3,8 +3,7 @@ import DataShow from "../components/DataShow";
 
 function ProductsScreen() {
   return (
-    <View>
-      <Text>Products</Text>
+    <View style={style.data}>
       <DataShow />
     </View>
   );
@@ -12,4 +11,9 @@ function ProductsScreen() {
 
 export default ProductsScreen;
 
-const style = StyleSheet.create({});
+const style = StyleSheet.create({
+  data: {
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+  },
+});
