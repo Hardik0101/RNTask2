@@ -1,10 +1,10 @@
 import { View, Text, StyleSheet } from "react-native";
-import DataShow from "../components/DataShow";
+import ProductData from "../components/ProductData";
 
 function ProductsScreen() {
   return (
     <View style={style.data}>
-      <DataShow />
+      <ProductData />
     </View>
   );
 }

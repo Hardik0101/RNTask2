@@ -1,10 +1,10 @@
 import { View, Text, StyleSheet } from "react-native";
-import HomeData from "../components/HomeData";
+import HomeScreenData from "../components/HomeScreenData";
 
 function HomeScreen() {
   return (
     <View style={style.container}>
-      <HomeData />
+      <HomeScreenData />
     </View>
   );
 }
