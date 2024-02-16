@@ -19,7 +19,13 @@ export default function App() {
           headerTintColor: "white",
           tabBarActiveTintColor: "#3c0a6b",
           tabBarActiveBackgroundColor: "#d4cce6",
-          tabBarStyle: { marginBottom: 10, height: 50, paddingHorizontal: 8 },
+          tabBarStyle: {
+            height: 58,
+            paddingHorizontal: 10,
+          },
+          tabBarItemStyle: {
+            marginBottom: 16,
+          },
         }}
         sceneContainerStyle={{ backgroundColor: "#e3dfed" }}
       >
